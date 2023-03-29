@@ -26,9 +26,6 @@ jobs:
       uses: nuget/setup-nuget@v1
       with:
         nuget-version: ${{ env.NUGET_VERSION}}
-      
-      shell: pwsh
-      run: ${{ github.workspace }} 
     
     - name: NuGet to restore dependencies as well as project-specific tools that are specified in the project file.
       run: 
