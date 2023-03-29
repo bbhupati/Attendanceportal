@@ -47,7 +47,7 @@ jobs:
         # cd Attendanceportal
         # pwd
         # ls
-        nuget restore
+        # nuget restore
   
     - name: Add msbuild to PATH
       uses: microsoft/setup-msbuild@v1.0.0
