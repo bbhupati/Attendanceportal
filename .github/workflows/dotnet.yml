@@ -24,7 +24,7 @@ jobs:
 
     - name: Restore NuGet Packages
       run: |
-        # cd AttendancePortal
+        cd AttendancePortal
         dotnet restore
 
     - name: Build the app
@@ -34,7 +34,7 @@ jobs:
 
     - name: Publish the app
       run: |
-        cd AttendancePortal
+        # cd AttendancePortal
         dotnet publish --configuration ${{ env.BUILD_CONFIGURATION }} --output $(System.DefaultWorkingDirectory)/bin/Release/net5.0/publish
 
     - name: Azure Login
