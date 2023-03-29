@@ -22,6 +22,10 @@ jobs:
     # checkout the repo
     - uses: actions/checkout@master  
     
+    - name: Print GITHUB_WORKSPACE
+      run: echo ${GITHUB_WORKSPACE}
+    
+    
     - name: Install Nuget
       uses: nuget/setup-nuget@v1
       with:
