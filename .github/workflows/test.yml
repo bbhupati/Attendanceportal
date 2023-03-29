@@ -1,7 +1,4 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
-
-name: Build and deploy ASP.NET web app to Azure Web App - Attendanceportal
+name: Build and deploy ASP.NET Core app to Azure Web App
 
 on:
   push:
@@ -14,49 +11,49 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v2
+    - uses: actions/checkout@v2
 
-      - name: Setup MSBuild path
-        uses: microsoft/setup-msbuild@v1.0.2
-        with:
-          msbuild-version: '16.0'
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '6.0.x'
+        include-prerelease: true
 
-      - name: Restore NuGet packages
-        run: nuget restore
+    - name: Restore dependencies
+      run: dotnet restore
 
-      - name: Build with MSBuild
-        run: msbuild /p:Configuration=Release
+    - name: Build with dotnet
+      run: dotnet build --configuration Release
 
-      - name: Publish with MSBuild
-        run: msbuild /t:Publish /p:Configuration=Release /p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation=${{env.PUBLISH_DIR}}
+    - name: Publish
+      run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/Attendanceportal
 
-      - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v2
-        with:
-          name: web-app
-          path: ${{env.PUBLISH_DIR}}
+    - name: Upload artifact for deployment job
+      uses: actions/upload-artifact@v2
+      with:
+        name: Attendanceportal
+        path: ${{env.DOTNET_ROOT}}/Attendanceportal
 
-#   deploy:
-#     runs-on: windows-latest
-#     needs: build
-#     environment:
-#       name: 'Production'
-#       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+  deploy:
+    needs: build
+    runs-on: windows-latest
+    environment:
+      name: 'production'
+      url: ${{ secrets.WEBAPP_URL }}
 
-#     steps:
-#       - name: Download artifact from build job
-#         uses: actions/download-artifact@v2
-#         with:
-#           name: web-app
+    steps:
+    - name: Download artifact
+      uses: actions/download-artifact@v2
+      with:
+        name: myapp
 
-#       - name: Deploy to Azure Web App
-#         id: deploy-to-webapp
-#         uses: azure/webapps-deploy@v2
-#         with:
-#           app-name: 'Attendanceportal'
-#           slot-name: 'Production'
-#           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_14765BDCE1434313B179D908BC165E39 }}
-#           package: ${{ github.workspace }}/web-app
+    - name: Deploy to Azure Web App
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: 'Attendanceportal'
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+        package: './Attendanceportal'
+
 
 
 # name: Deploy ASP.NET MVC App deploy to Azure Web Application
