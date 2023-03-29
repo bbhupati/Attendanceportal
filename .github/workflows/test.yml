@@ -35,8 +35,9 @@ jobs:
       run: |
         pwd
         ls
-      
-        # cd Attendanceportal
+        cd Attendanceportal
+        pwd
+        ls
         nuget restore
   
     - name: Add msbuild to PATH
