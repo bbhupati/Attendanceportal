@@ -35,6 +35,8 @@ jobs:
       run: |
         pwd
         ls
+        dir 
+        cd D:\a\Attendanceportal\Attendanceportal
         # cd Attendanceportal
         # pwd
         # ls
