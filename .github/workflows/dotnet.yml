@@ -24,17 +24,17 @@ jobs:
 
     - name: Restore NuGet Packages
       run: |
-        cd MyWebApp
+        cd AttendancePortal
         dotnet restore
 
     - name: Build the app
       run: |
-        cd MyWebApp
+        cd AttendancePortal
         dotnet build --configuration ${{ env.BUILD_CONFIGURATION }}
 
     - name: Publish the app
       run: |
-        cd MyWebApp
+        cd AttendancePortal
         dotnet publish --configuration ${{ env.BUILD_CONFIGURATION }} --output $(System.DefaultWorkingDirectory)/AttendancePortal/bin/Release/net5.0/publish
 
     - name: Azure Login
