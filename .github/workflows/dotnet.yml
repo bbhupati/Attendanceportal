@@ -23,8 +23,7 @@ jobs:
         dotnet-version: '5.0.x'
 
     - name: Restore NuGet Packages
-      run: |
-        cd AttendancePortal
+      run: 
         dotnet restore
 
     - name: Build the app
