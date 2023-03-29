@@ -38,7 +38,10 @@ jobs:
         write-host "checking dir"
         dir 
         write-host "closing dir"
-        # cd D:\a\Attendanceportal\Attendanceportal
+        cd Attendanceportal
+        write-host $pwd
+        dir
+        
       
         # cd Attendanceportal
         # pwd
