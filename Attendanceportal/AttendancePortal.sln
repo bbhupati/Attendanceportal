@@ -1,55 +1,40 @@
-﻿'iisexpress.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.ApplicationServices\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.ApplicationServices.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: Domain 2): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.ApplicationServices\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.ApplicationServices.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Caching\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Caching.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Caching\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Caching.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Utilities.v4.0\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.v4.0.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Utilities.v4.0\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.v4.0.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.JScript\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.JScript.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.Services\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.IdentityModel\v4.0_4.0.0.0__b77a5c561934e089\System.IdentityModel.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activation\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activation.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Web\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Web.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.Activities.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activities.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.WorkflowServices\v4.0_4.0.0.0__31bf3856ad364e35\System.WorkflowServices.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.Extensions\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Extensions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.DynamicData\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.DynamicData.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.Web.PageInspector.Loader\v4.0_1.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Web.PageInspector.Loader.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Web Tools\Browser Link\Microsoft.WebTools.BrowserLink.Runtime.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Data.Services.Design\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Services.Design.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization.Formatters.Soap\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Serialization.Formatters.Soap.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization.Formatters.Soap\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Serialization.Formatters.Soap.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Data.OracleClient\v4.0_4.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Data.OracleClient\v4.0_4.0.0.0__b77a5c561934e089\System.Data.OracleClient.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\Users\sange\AppData\Local\Temp\Temporary ASP.NET Files\vs\9a7f7625\e31bd7c\App_Code.uvggtr1-.dll'. 
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Web Tools\Browser Link\Microsoft.WebTools.BrowserLink.Tracing.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Internals\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Internals.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-'iisexpress.exe' (CLR v4.0.30319: /LM/W3SVC/3/ROOT-1-133225739338660995): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\SMDiagnostics\v4.0_4.0.0.0__b77a5c561934e089\SMDiagnostics.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
-The program '[14444] iisexpress.exe' has exited with code 0 (0x0).
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AttendancePortal", "..\..\Users\sange\AttendancePortal\AttendancePortal\", "{5678CF17-E82A-4DD0-925B-6D44FFCC877E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63112"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\AttendancePortal\AttendancePortal\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63112\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63112"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\AttendancePortal\AttendancePortal\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63112\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63112"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5678CF17-E82A-4DD0-925B-6D44FFCC877E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5678CF17-E82A-4DD0-925B-6D44FFCC877E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05651676-4F8B-44DC-9FA5-2850BDE81604}
+	EndGlobalSection
+EndGlobal
