@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@master  
     
     - name: Print GITHUB_WORKSPACE
-      run: Write-Host ${GITHUB_WORKSPACE}
+      run: Write-Host $GITHUB_WORKSPACE
     
     
     - name: Install Nuget
@@ -33,6 +33,8 @@ jobs:
     
     - name: NuGet to restore dependencies as well as project-specific tools that are specified in the project file.
       run: |
+        write-host $GITHUB_REF
+        write-host $GITHUB_REPOSITORY
         write-host $pwd
         write-host "clsoing pwd"
         write-host "checking dir"
