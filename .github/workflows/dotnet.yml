@@ -24,12 +24,12 @@ jobs:
 
     - name: Restore NuGet Packages
       run: |
-        cd AttendancePortal
+        # cd AttendancePortal
         dotnet restore
 
     - name: Build the app
       run: |
-        cd AttendancePortal
+        # cd AttendancePortal
         dotnet build --configuration ${{ env.BUILD_CONFIGURATION }}
 
     - name: Publish the app
