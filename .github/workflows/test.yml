@@ -44,7 +44,6 @@ jobs:
         write-host $pwd
         dir
         
-      
         # cd Attendanceportal
         # pwd
         # ls
