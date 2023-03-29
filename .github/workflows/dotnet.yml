@@ -35,7 +35,7 @@ jobs:
     - name: Publish the app
       run: |
         cd AttendancePortal
-        dotnet publish --configuration ${{ env.BUILD_CONFIGURATION }} --output $(System.DefaultWorkingDirectory)/AttendancePortal/bin/Release/net5.0/publish
+        dotnet publish --configuration ${{ env.BUILD_CONFIGURATION }} --output $(System.DefaultWorkingDirectory)/bin/Release/net5.0/publish
 
     - name: Azure Login
       uses: azure/login@v1
@@ -49,4 +49,4 @@ jobs:
         slot-name: ${{ env.AZURE_WEBAPP_SLOT_NAME }}
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
       env:
-        AZURE_WEBAPP_PACKAGE_PATH: $(System.DefaultWorkingDirectory)/AttendancePortal/bin/Release/net5.0/publish
+        AZURE_WEBAPP_PACKAGE_PATH: $(System.DefaultWorkingDirectory)/bin/Release/net5.0/publish
