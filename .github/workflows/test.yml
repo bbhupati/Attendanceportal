@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@master  
     
     - name: Print GITHUB_WORKSPACE
-      run: echo ${GITHUB_WORKSPACE}
+      run: Write-Host ${GITHUB_WORKSPACE}
     
     
     - name: Install Nuget
@@ -33,10 +33,17 @@ jobs:
     
     - name: NuGet to restore dependencies as well as project-specific tools that are specified in the project file.
       run: |
+        write-host "checking pwd"
         pwd
-        ls
+        write-host "clsoing pwd"
+        write-host "checking ls"
+        ls 
+        write-host "clsoing ls"
+        write-host "checking dir"
         dir 
+        write-host "closing dir"
         cd D:\a\Attendanceportal\Attendanceportal
+      
         # cd Attendanceportal
         # pwd
         # ls
